@@ -2,26 +2,44 @@
 
 /*main section*/
 .home-grid {
-    max-width: 50%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #000000;
-    color: whitesmoke;
     
 }
 header {
     width: 100%;
-    background-color: #2E5A88;
-    color: whitesmoke;
+    height: 400px;
+    background-color:#000000;
     text-align: center;
+    position: fixed;
+
 }
 
 .propic {
-    width: 5%;
-    height: 30%;
-    grid-column: 2/3;
+    width: 10%;
+    height: 35%;
+    grid-column: 3/4;
+}
+
+.wrapper {
+    background-color: #2E5A88;
+    width:100%;
 }
 .card {
     text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    grid-column: 4/5;
+    font-size: 3em;
+    font-family: 'Handlee', cursive;
+}
+
+ a {
+    color: whitesmoke;
+
 }
 
