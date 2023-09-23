@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Kalam&display=swap');
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kalam', cursive;
+
+main{
+    max-width: 767px;
+    margin: 0 auto;
+	display: grid;
+	grid-template-columns: 4fr;
+}
+
+.para{
+    background-color: #F7E9CA;
+    padding: 10px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-family: 'Inclusive Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    grid-template-columns: 2/4;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 4em;
+    background-color: #FFD6DB;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 3em;
+    background-color: #F7E9CA;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+a {
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1em;
+}
+
+.link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.will-sono-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 10px;
+    border: 10px solid #FFD6DB;
+    padding: 20px;
+}
+
+.type-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 10px;
+    border: 10px solid #FFD6DB;
+    padding: 20px;
+}
+
+.type-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 10px;
+    border: 10px solid #FFD6DB;
+    padding: 20px;
+}
+
+.area17-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 10px;
+    border: 10px solid #FFD6DB;
+}
+
