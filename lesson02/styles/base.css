@@ -1,7 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Kalam&display=swap');
-font-family: 'Inclusive Sans', sans-serif;
-font-family: 'Kalam', cursive;
 
 main{
     max-width: 767px;
@@ -23,7 +21,7 @@ main{
     margin-top: 50px;
     border-radius: 10px;
     margin-bottom: 50px;
-    grid-template-columns: 2/4;
+    grid-column:  2/4;
 }
 
 h1 {
@@ -79,6 +77,7 @@ a {
     border-radius: 10px;
     border: 10px solid #FFD6DB;
     padding: 20px;
+    grid-column: 2/4;
 }
 
 .type-img {
@@ -89,16 +88,7 @@ a {
     border-radius: 10px;
     border: 10px solid #FFD6DB;
     padding: 20px;
-}
-
-.type-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    border-radius: 10px;
-    border: 10px solid #FFD6DB;
-    padding: 20px;
+    grid-column: 2/4;
 }
 
 .area17-img {
@@ -108,5 +98,5 @@ a {
     width: 20%;
     border-radius: 10px;
     border: 10px solid #FFD6DB;
+    grid-column: 2/4;
 }
-
