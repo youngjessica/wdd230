@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Kalam&display=swap');
+
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Kalam', cursive;
 
 /*main section*/
-.home-grid {
-    max-width: 100%;
+.box-area{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    background-color: #000000;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
     
 }
 header {
     width: 100%;
     height: 400px;
     background-color:#000000;
-    text-align: center;
-    position: fixed;
-
 }
 
 .propic {
@@ -35,7 +34,8 @@ h1 {
     color: whitesmoke;
     grid-column: 4/5;
     font-size: 3em;
-    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+    text-align: center;
 }
 
  a {
@@ -43,6 +43,90 @@ h1 {
 
 }
 
-h2 , h3{
-    color: whitesmoke;
+h2 {
+    color: black;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 2em;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  }
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family:'Inclusive Sans', sans-serif;
+    font-size: 1.5em;
+    align-content: center;
+
+}
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .banner{
+    background-color: #2E5A88;
+  }
+
+  .banner-content{
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .banner-text{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+
+  .activities{
+    background-color: white;
+  }
+
+  .activities-list li a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: black;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+  }
+  .info-banner{
+    background-color: #2E5A88;
+  }
+
+  .info-banner-content{
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .info-banner-text{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+
+p{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 1em;
+}
+
+footer{
+    background-color: #2E5A88;
+    padding: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
