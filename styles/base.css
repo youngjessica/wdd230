@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&display=swap');
+
+/*main section*/
+.home-grid {
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #000000;
+    color: whitesmoke;
+    
+}
+header {
+    width: 100%;
+    background-color: #2E5A88;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.propic {
+    width: 5%;
+    height: 30%;
+    grid-column: 2/3;
+}
+.card {
+    text-align: center;
+}
+
