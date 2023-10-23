@@ -27,10 +27,6 @@ header {
     text-align: center;
 }
 
-#menu {
-  content: ""
-}
-
 h1 {
     color: whitesmoke;
     grid-column: 4/5;
@@ -72,7 +68,56 @@ nav {
     display: flex;
     justify-content: center;
 }
-  
+
+/* Mobile view */
+#menu {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .5rem .75rem;
+  background-color: #000000;
+  color: whitesmoke;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav {
+	background-color: #000000;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+  max-width: 760px;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1.25rem, 2.25vmin, 1.75rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: gray;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+
   /* Change the link color on hover */
 li a:hover {
     background-color: #555;
@@ -157,4 +202,21 @@ h3{
 
 #menu {
     display: none;
+}
+
+/*wider than mobile viewport*/
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
 }
