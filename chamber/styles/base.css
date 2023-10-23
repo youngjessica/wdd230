@@ -1,18 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mate&display=swap');
 
-.logo {
-    display: float;
+
+.logo_link{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(20, 1fr);
+    display: flex;
     justify-content: left;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
 }
 
-.content {
-    background-color: #FAFCF6;
+.logo_title_1{
+    color: #4E5787;
+    grid-column: 3/4;
+    font-size: 1.25em;
+    font-family: 'Bebas Neue', sans-serif;
+    display: float;
+    padding-left: 10px;
 }
+
+.logo_title_2{
+    color: #4E5787;
+    grid-column: 3/4;
+    font-size: .5em;
+    font-family: 'Mate', serif;
+    display: block;
+    padding-top: 42px;
+    padding-left: 10px;
+}
+
 
 nav {
     background-color: #4E5787;
     width:100%;
-    height: 160px;
+    height: 75px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
 }
 
-   
+nav a {
+    color: whitesmoke;
+    padding: 8px 16px;
+    font-family:'Mate', serif;
+    font-size: 1.5em;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 25px;
+    background-color:#000000;
+}
+
+#hero-img{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3em;
+    border: 2em;
+}
+
+.home-title{
+    color: #4E5787;
+    font-size: 3.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    display: float;
+    position: absolute;
+    top: 27%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    text-align: center;
+}
+
+.join{
+    color:#D5606A;
+    font-size: 2.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    display: float;
+    position: absolute;
+    top: 42%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    text-align: right;
+}
+.daytons-best-card{
+    grid-template-columns: repeat(9, 1fr);
+    padding-bottom: 40px;
+}
+
+h2{
+    color: #4E5787;
+    font-size: 2em;
+    font-family: 'Mate', serif; 
+    text-align: center;
+}
+.card-img-1, .card-img-2, .card-img-3{
+    border: 2.5px solid #D5606A;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.card-img-1{
+    grid-column: 2/4;
+}
+
+.card-img-2{
+    grid-column: 4/6;
+}
+
+.card-img-3{
+    grid-column: 6/8
+}
+
+.weather-card{
+    padding-top: 20px;
+    border-top: 1.5px solid #A1A29C;
+}
+
+.weather-card p{
+   font-family:'Bebas Neue', sans-serif;
+   color: #1C2826;
+   display: float;
+   text-align: center;
+   font-size: 1.5em;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
+footer .social img {
+    padding-top: 15px;
+    margin-top: 25px;
+    border-radius: 10px 10px;
+}
