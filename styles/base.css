@@ -201,9 +201,9 @@ h3{
     }
 }
 
-#menu {
+/* #menu {
     display: none;
-}
+} */
 
 /*wider than mobile viewport*/
 @media only screen and (min-width: 40em) {
