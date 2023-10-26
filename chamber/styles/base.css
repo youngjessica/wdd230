@@ -128,8 +128,14 @@ h2{
    text-align: center;
    font-size: 1.5em;
 }
-
-
+.weather{
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding-right: 30px;
+}
 
 footer .social img {
     padding-top: 15px;

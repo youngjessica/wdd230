@@ -24,7 +24,7 @@
             <section>
                 <div class="wrapper">
                     <div class="logo_link">
-                        <img class="logo" src="../chamber/images/logo.png" alt="The Ohio Flag">
+                        <img class="logo" src="../chamber/images/logo.webp" alt="The Ohio Flag">
                         <h1 class ="logo_title_1">The City of Dayton</h1>
                         <h2 class="logo_title_2">CHAMBER OF COMMERCE</h2>
                     </div>
@@ -45,7 +45,12 @@
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="../chamber/images/dayton_ohio_2.jpg" alt="The city of Dayton, Ohio.">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="images/practice-hero-small.webp" />
+                        <source media="(max-width: 1000px)" srcset="images/practice-hero-medium.webp" />
+                        <img src="images/practice-hero-large.webp" alt="Image of woman talking to two men." width="auto"/>
+                    </picture>
+                <!--<img id="hero-img" src="../chamber/images/dayton_ohio_2.webp" alt="The city of Dayton, Ohio.">-->
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Welcome to the Buckeye State</h1>
@@ -57,14 +62,20 @@
         <main class="home-grid">
             <section class="daytons-best-card">
                 <h2>Dayton's Weekly Best</h2>
-                <img class="card-img-1" src="../chamber/images/card-image-1.png" alt="">
-                <img class="card-img-2" src="../chamber/images/card-image-2.png" alt="">
-                <img class="card-img-3" src="../chamber/images/card-image-3.png" alt="">
+                <img class="card-img-1" src="../chamber/images/card-image-1.webp" alt="">
+                <img class="card-img-2" src="../chamber/images/card-image-2.webp" alt="">
+                <img class="card-img-3" src="../chamber/images/card-image-3.webp" alt="">
             </section>
             <section class="weather-card">
                 <h2>Current Weather</h2>
                 <p>Dayton, Ohio</p>
-                <p><span>&#9729;</span> 62°F - Partly Cloudy</p>
+                <ul class="weather"> 
+                    <li></li><span>&#9729;</span>High: 57&deg;</li>
+                    <li>Low: 37&deg;</li>
+                    <li>Chance of Precipitation: 45%</li>
+                    <li>Wind: 15mph NW</li>
+                    <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+                </ul> 
                 <p>Page Visits: 27</p>
             </section>
             <section class="events-card">
@@ -76,13 +87,13 @@
             <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
+                    <img src="images/facebook.webp" alt="fb icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
                     <img src="images/twitter.png" alt="twitter icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/instagram.webp" alt="instagram icon">
                 </a>
              </div>
         </footer>
