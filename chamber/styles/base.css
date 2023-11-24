@@ -48,6 +48,10 @@ nav a {
     align-items: center;
     text-align: center;
     text-decoration: none;
+    display: float;
+    transform: translate(-50%, -50%); 
+    position: relative;
+    z-index: 8;
 }
 
 header {
