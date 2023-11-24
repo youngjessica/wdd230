@@ -12,3 +12,18 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🕶️";
 	}
 });
+
+localStorage.setItem("lastVesitedTime", JSON.stringify(new Date()));
+
+let numVisits = Number(window.localStorage.getItem("timeBetween"));
+
+var time = localStorage.getItem("lastVesitedTime");
+var lastVisitedTime = JSON.parse(time);
+var now =new Date();
+var diffDays =now.getDate() - lastVisitedTime.getDate(); 
+const visitsDisplay = document.querySelector('.timeBetween');
+visitedDisplay.innerText=diffDays + " days"
+
+const visitDifference = "pastvisit" - Date.now();
+
+localStorage.setItem("timeBetween", visitDifference);

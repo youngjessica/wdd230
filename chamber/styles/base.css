@@ -85,7 +85,53 @@ header {
     left: 50%; 
     transform: translate(-50%, -50%);  
     text-align: right;
+} 
+/*daytons-best*/
+.daytons-best-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 40px;
 }
+
+.best-title{
+    color: #4E5787;
+    font-size: 2em;
+    font-family: 'Mate', serif; 
+    text-align: center;
+    grid-column: 3/4;
+    padding-left: 15px;
+}
+.card-img{
+    border: 2.5px solid #D5606A;
+    max-width: 300px;
+    max-height: 300px;
+    align-items: center;
+    grid-column: 3/4;
+}
+/*weather-card*/
+.weather-card{
+    display: grid;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    grid-template-columns: 2fr;
+}
+
+/*events-card*/
+.events-card{
+    display: grid;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    grid-template-columns: 2fr;
+}
+/*discover page*/
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -106,7 +152,15 @@ header {
     padding-top: 5px;
     padding-left: 15px;
 }
-
+.timestamp{
+    color: #D5606A;
+    font-size: 2em;
+    font-family: 'Mate', serif; 
+    text-align: center;
+    grid-column: 3/4;
+    padding-bottom: 800px;
+    display: flex;
+}
 .main-section{
     padding-top: 90px;
 }
@@ -124,13 +178,19 @@ header {
     padding-left: 125px;
 
 }
-
 .main-img1{
     border: 2.5px solid #4E5787;
     width: 400px;
     height: 250px;
     grid-column: 2/3;
     grid-row: 2/3;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img1:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 .main-img2{
     border: 2.5px solid #4E5787;
@@ -138,6 +198,13 @@ header {
     height: 250px;
     grid-column: 2/3;
     grid-row: 2/3;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img2:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 .main-img3{
     border: 2.5px solid #4E5787;
@@ -145,6 +212,13 @@ header {
     height: 250px;
     grid-column: 2/3;
     grid-row: 3/4;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img3:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 .main-img4{
     border: 2.5px solid #4E5787;
@@ -152,6 +226,13 @@ header {
     height: 250px;
     grid-column: 2/3;
     grid-row: 3/4;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img4:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 .main-img5{
     border: 2.5px solid #4E5787;
@@ -159,6 +240,13 @@ header {
     height: 250px;
     grid-column: 2/3;
     grid-row: 4/5;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img5:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 .main-img6{
     border: 2.5px solid #4E5787;
@@ -166,6 +254,13 @@ header {
     height: 250px;
     grid-column: 2/3;
     grid-row: 4/5;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img6:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 .main-img7{
     border: 2.5px solid #4E5787;
@@ -173,6 +268,13 @@ header {
     height: 250px;
     grid-column: 2/3;
     grid-row: 5/6;
+    box-shadow: 0px 3px 8px #000000;
+    transition: all 300ms ease-in-out;
+}
+.main-img7:hover{
+    box-shadow: 0px 10px 35px;
+    width: 402px;
+    height: 252px;
 }
 h2{
     color: #4E5787;
