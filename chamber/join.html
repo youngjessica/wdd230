@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jess Young">
+    <meta name="description"
+        content="This is the Chamber of Commerce website created for my WDD-230 class.">
+        <link rel="icon" href="favicon.ico">
+        <meta property="og:title" content="Jess Young - WDD 230 - Chamber of Commerce">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.istockphoto.com/photo/dayton-downtown-skyline-with-river-at-dusk-gm543082262-97390921">
+        <meta property="og:image" content="https://youngjessica.github.io/wdd230/index.html">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <script src="scripts/form.js"></script>
+    <title>Jess Young - WDD 230 - Chamber of Commerce - Join Us</title>
+</head>
+    <body>
+        <div id="content">
+            <section>
+                <div class="wrapper">
+                    <div class="logo_link">
+                        <img class="logo" src="../chamber/images/logo.webp" alt="The Ohio Flag">
+                        <h1 class ="logo_title_1">The City of Dayton</h1>
+                        <h2 class="logo_title_2">CHAMBER OF COMMERCE</h2>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <header>
+            <a id="menu" href="#"></a>
+            <div id="mode">
+                🕶️
+            </div>
+            <nav>
+                <ul>
+                    <a href="../chamber/index.html">Home</a>
+                    <a href="../chamber/discover.html">Discover</a>
+                    <a href="">Events</a>
+                    <a href="">News</a>
+                    <a href="join.html">Join</a>
+                </ul>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+            </div>
+            <section id="hero-msg"></section>
+            </section>
+        </div>
+        <main class="home-grid">
+            <div class="join-form">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Join Us!</legend>
+                        <label class="top">First Name*<input type="text" id="firstname" name="firstname" required></label>
+                        <label class="top">Last Name*<input type="text" id="lastname" name="lastname" required></label>
+                        <label class="top">Title or Position*<input type="text" id="position" name="position" required></label>
+                        <label class="top">Email*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="Please enter a valid email address"></label>
+                        <label class="top" for="membership" name="membership" id="membership" required>Choose a membership:</label>
+                            <select id="membership" name="membership">
+                                <option value="non-profit">Non-Profit(no fee)</option>
+                                <option value="bronze">Bronze Membership</option>
+                                <option value="silver">Silver Membership</option>
+                                <option value="gold">Gold Membership</option>
+                            </select>
+                        <label class="top" for="description">Please describe your business or organization below:</label>
+                            <textarea name="message" rows="10" cols="30"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Join" class="submitBtn" href="thankyou.html">
+                </form>
+            </div>
+            <div class="memberships">
+                <section class="membership-box">
+                    <ul>
+                        <h3>NP Membership</h3>
+                            <li>is for non-profit organizations and there is no fee.</li>
+                        <h3>Bronze Membership</h3>
+                            <li>$275 Annually</li>
+                            <li>Chamber events and programs at member price</li>
+                            <li>Business Boot Camp at member price</li>
+                            <li>Membership 101 (learn how to access your benefits)</li>
+                            <li>Participate on committees and task forces.</li>
+                        <h3>Silver Membership</h3>
+                            <li>$550 Annually</li>
+                            <li>Everything in the Engage & Connect level plus:
+                            <li>Enhanced bolded listing in the online and print Business Directory</li>
+                            <li>Enhanced Ribbon Cutting/Grand Opening Ceremony (Chamber CEO hosted, Facebook Live & event, press release)</li>
+                            <li>Early access to register for display booth at the annual Business Expo (sells out quickly!)</li>
+                            <li>Mention in Member News section in the Chamber Link newsletter (new location, staff, announcement)</li>
+                            <li>Anniversary recognition in Chamber publications and social media</li>
+                            <li>Opportunity to host/ sponsor a Chamber Coffee or morning event.</li>
+                        <h3>Gold Membership</h3>
+                            <li>Everything in the Engage & Connect level plus:</li>
+                            <li>Enhanced bolded listing and an additional category (2) in the online and print Business Directory
+                            <li>Enhanced Ribbon Cutting/Grand Opening Ceremony (Chamber CEO hosted, Facebook Live & event, press release)</li>
+                            <li>Early access to register for display booth at the annual Business Expo (sells out quickly!)</li>
+                            <li>Mention in Member News section in the Chamber Link newsletter (new location, staff, announcement)</li>
+                            <li>Member Spotlight in Chamber Link newsletter</li>
+                            <li>Opportunity to host a Chamber event</li>
+                            <li>Chamber Mailing List to promote products/services (electronic version) (1x/year, emails not included)</li>
+                            <li>Anniversary recognition in Chamber publications and social media</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 - Jess Young <span>&#127482;&#127480;</span> United States</p>
+            <p id="lastModified"></p>
+            <p>Jess Young - WDD 230 - Web Design and Development</p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.webp" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.webp" alt="instagram icon">
+                </a>
+             </div>
+        </footer>
+</body>
+</html>
