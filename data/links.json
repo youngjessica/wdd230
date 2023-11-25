@@ -8,11 +8,98 @@
             "title":"Code Pen Format Date"
           }
         ]
+    },
+    {
         "lesson": "02",
-        "links": [
+        "links":[
             {
-                "url":"",
-                "title":"Design Principles"
-              }
+            "url":"https://youngjessica.github.io/wdd230/lesson02/design-principles.html",
+            "title": "Design Principles"
+            }
+        ]
+    },
+    {
+        "lesson": "03",
+        "links":[
+            {
+            "url":"https://youngjessica.github.io/wdd230/lesson03/images/combinator_excr.png",
+            "title": "Combinator Exercise"
+            },
+            {
+            "url":"https://codepen.io/Jessica-Young/pen/VwqdXPP",
+            "title": "Code Pen CSS Pseudo Elements"
+            }
+        ]
+    },
+    {
+        "lesson": "04",
+            "links":[
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson03/chamber-site-plan.html",
+                "title": "Chamber Site Plan"
+                }
             ]
-      }
+    },
+    {
+        "lesson": "05",
+            "links":[
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson05/bom.html",
+                "title": "BOM Favorite Chapters"
+                }
+            ]
+    },
+    {
+        "lesson": "06",
+            "links":[
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson05/bom.html",
+                "title": "BOM Favorite Chapters"
+                },
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson06/responsive-images.html",
+                "title": "Responsive Images"
+                }
+            ]
+    },
+    {
+        "lesson": "07",
+        "links":[
+            {
+            "url":"https://youngjessica.github.io/wdd230/lesson07/lazyload.html",
+            "title": "Lazy Loading"
+            }
+        ]
+    },
+    {
+        "lesson": "08",
+            "links":[
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson08/tablebuild.html",
+                "title": "Table Build"
+                },
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson08/index.html",
+                "title": "Forms Build"
+                }
+            ]
+    },
+    {
+        "lesson": "09",
+            "links":[
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson09/new-ward-members.json",
+                "title": "JSON"
+                },
+                {
+                "url":"https://youngjessica.github.io/wdd230/lesson09/prophets.html",
+                "title": "Fetch() API"
+                }
+            ]
+    
+        }
+    ]
+
+}
+
+    
