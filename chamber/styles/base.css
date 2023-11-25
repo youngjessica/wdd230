@@ -429,6 +429,139 @@ h3{
     width: 350px;
     font-size: 3em;
 }
+
+/*directory*/
+.business {
+    padding: 16px;
+    box-shadow: 0 0 10px lightgray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    gap: 10px;
+    color: #23487B;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+.directory {
+    color: #23487B;
+    text-align: center;
+    padding: .8rem;
+}
+
+main p {
+    color: #23487B;
+}
+div.directory-button {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid {
+    border: 2px solid #D5606A;
+    background-color: white;
+    padding: .35rem;
+    margin: .35rem;
+    box-shadow: 1px 1px 3px #555;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    grid-column: 1/2;
+    grid-gap: 20px;
+}
+
+div.directory-button button:hover {
+    border: 2px solid #23487B ;
+}
+
+div.directory-button button > img {
+    width: 44px;
+    height: 44px;
+}
+
+div.cards section .business {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    margin: .5rem 0;
+    color: #23487B;
+}
+
+div.cards section h3 {
+    grid-column: 1/2;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+div.cards section p.desc {
+    grid-column: 1/2;
+    font-size: .9rem;
+    font-style: italic;
+}
+
+div.cards div.contact {
+    grid-column: 1/2;
+    font-size: .9rem;
+}
+
+div.cards div.contact a {
+    display: none;
+}
+
+div.cards section picture {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #555;
+}
+
+div.cards section > a#full-link {
+    display: none;
+}
+
+/* list view */
+div.list section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: none;
+    margin: 0;
+    padding: .5rem;
+    border: none;
+}
+
+div.list section:nth-child(odd) {
+    background-color: rgba(247, 150, 15, 0.2);
+}
+
+div.list div.contact a {
+    display: block;
+}
+
+div.list section picture {
+    display: none;
+}
+
+div.list section a#full-link {
+    display: block;
+}
+
+div.list p.desc {
+    display: none;
+}
+
+div.list section h3 {
+    text-transform: capitalize;
+    font-size: .9rem;
+}
 /* dark mode*/
 
 main img {
