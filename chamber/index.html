@@ -16,7 +16,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/normalize.css">
-        <script src="java.js"></script>
+        <script src="scripts/java.js"></script>
+        <script src="scripts/windchill.js"></script>
     <title>Jess Young - WDD 230 - Chamber of Commerce</title>
 </head>
     <body>
@@ -47,6 +48,7 @@
             </nav>
         </header>
         <div id="hero">
+            <div id="week-banner" class="close">You are invited to attend the Chamber of Commerce meet and greet on Wednesday at 7:00 PM</div>
             <div id="hero-box">
                     <picture>
                         <img class="hero-img" src="images/dayton_ohio_2.webp" alt="Image of dowtown Dayton, Ohio."/>
@@ -56,7 +58,7 @@
             <section id="hero-msg">
                 <h1 class="home-title">Welcome to the Buckeye State</h1>
                 <div class="button-box">
-                    <a class="join" href="contactus.html">Join Us!</a>
+                    <a class="join" href="join.html">Join Us!</a>
                 </div>
             </section>
         </div>
@@ -67,25 +69,30 @@
                 <img class="card-img" src="../chamber/images/card-image-2.webp" alt="">
                 <img class="card-img" src="../chamber/images/card-image-3.webp" alt="">
             </section>
+            
             <section class="weather-card">
-                <h2>Current Weather</h2>
-                <p>Dayton, Ohio</p>
+                <h2>Weather</h2>
+                <p>Current temp in Dayton, Ohio</p>
+                <p class="temperature"><span id="valuTemp"><strong>27.7</strong></span>°F</p>
+                <p class="weatherDescription">scattered clouds</p>
+                <p><span id="windspeedValue">Wind: 9.6</span> km/h</p>
+                <p>Wind Chill:<span id="windChillValue">N/A</span></p>
+                <img src="https://openweathermap.org/img/wn/03d@2x.png" class="weather-icon" alt="scattered clouds">
                 <ul class="weather"> 
-                    <li></li><span>&#9729;</span>High: 57&deg;</li>
-                    <li>Low: 37&deg;</li>
-                    <li>Chance of Precipitation: 45%</li>
-                    <li>Wind: 15mph NW</li>
-                    <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+                    <h2>Three Day Forecast:</h2>
+                    <li>11-28: 30°F</li>
+                    <li>11-29: 46°F</li>
+                    <li>11-30: 54°F</li>  
                 </ul> 
                 <p>Page Visits: 27</p>
             </section>
             <section class="events-card">
-                <h2 class=""events-title">Events</h2>
+                <h2 class=""events-title"></h2>
             </section>
         </main>
         <footer>
             <p>Jess Young - WDD 230 - Web Design and Development</p>
-            <p><a href="contactus.html">Contact Us</a></p>
+            <p><a href="join.html">Join Us Today!</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.webp" alt="fb icon">

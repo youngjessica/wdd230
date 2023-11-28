@@ -53,6 +53,9 @@ nav a {
     position: relative;
     z-index: 8;
 }
+#hero {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 header {
     width: 100%;
@@ -77,6 +80,9 @@ header {
     left: 50%; 
     transform: translate(-50%, -50%);  
     text-align: center;
+    padding-left: 350px;
+    padding-top: 400px
+
 }
 
 .join{
@@ -89,7 +95,30 @@ header {
     left: 50%; 
     transform: translate(-50%, -50%);  
     text-align: right;
+    padding-top: 460px;
+    padding-left: 350px;
 } 
+#week-banner {
+    border: 1px solid #D5606A;
+    box-shadow: 0 0 10px #333;
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 10px;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    max-width: 500px;
+    margin-top: 95px;
+    margin-left: 472px;
+    margin-bottom: 0px;
+}
+#week-banner::before {
+    content: "❌";
+    margin: 10px;
+}
+li {
+    list-style-type: none;
+}
+
 /*daytons-best*/
 .daytons-best-card{
     display: grid;
@@ -124,8 +153,28 @@ header {
     align-items: center;
     text-decoration: none;
     grid-template-columns: 2fr;
+    padding: none;
 }
-
+#weather{
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+}
+#weatherHighlight{
+    grid-column: 2/3;
+}
+.weather-icon{
+    width: 100px;
+    margin-left: 200px;
+}
+#weather div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#weather h2{
+    padding-bottom: 200px;
+}
 /*events-card*/
 .events-card{
     display: grid;
@@ -338,6 +387,14 @@ footer .social img {
     padding-top: 15px;
     margin-top: 25px;
     border-radius: 10px 10px;
+    padding-left: 10px;
+    margin-left: 300px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Mate', serif;
+    color: #4E5787;
+    font-size: 1.25em;
 }
 
 @keyframes fade{
