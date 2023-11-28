@@ -63,7 +63,9 @@ nav li a {
     text-align: center;
     text-decoration: none;
 }
-
+li{
+  list-style-type: none;
+}
 nav {
     display: flex;
     justify-content: center;
