@@ -7,7 +7,7 @@ body {
     display: float;
     height: 225px;
     width: 225px;
-    padding-right: 50px;
+    justify-content: left;
 }
 header {
     text-align: center;
