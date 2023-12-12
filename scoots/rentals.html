@@ -13,33 +13,14 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <title>Jess Young's "Scoots" Website - Rentals - WDD 230</title>
-    <style type="text/css">
-        @font-face {
-            font-weight: 400;
-            font-style:  normal;
-            font-family: circular;
-        
-            src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
-        }
-        
-        @font-face {
-            font-weight: 700;
-            font-style:  normal;
-            font-family: circular;
-        
-            src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
-        }
-    </style>
 </head>
 <body>
   <div id="content">
-    <section>
         <div class="wrapper">
             <div class="logo_link">
                 <img class="logo" src="../scoots/images/scooter_logo.svg" alt="Scoots logo">
             </div>
         </div>
-    </section>
   </div>
   <header>
     <nav>
@@ -54,41 +35,13 @@
     </nav>
 </header>
     <main class="rental-list">
-        <section>
           <div class="cards"></div>
-            <picture>
-                <img src="../scoots/images/honda_metro.webp" id="metro" onclick="showData(this.id)" alt="metro scooter">
-                <p id="name0"></p>
-                <p id="max0"></p>
-                <p id="half0"></p>
-                <p id="full0"></p>
-                <img src="../scoots/images/honda_dio.webp" id="dio" onclick="showData(this.id)" alt="dio scooter">
-                <p id="name1"></p>
-                <p id="max1"></p>
-                <p id="half1"></p>
-                <p id="full1"></p>
-                <img src="../scoots/images/honda_PCX150.webp" id="pcx" onclick="showData(this.id)" alt="pcx scooter">
-                <p id="name2"></p>
-                <p id="max2"></p>
-                <p id="half2"></p>
-                <p id="full2"></p>
-                <img src="../scoots/images/honda_runner.webp" id="h1000" onclick="showData(this.id)" alt="honda 1000">
-                <p id="name3"></p>
-                <p id="max3"></p>
-                <p id="half3"></p>
-                <p id="full3"></p>
-                <img src="../scoots/images/jeep_4.webp" id="4d" onclick="showData(this.id)" alt="4 door jeep">
-                <p id="name4"></p>
-                <p id="max4"></p>
-                <p id="half4"></p>
-                <p id="full4"></p>
-                <img src="../scoots/images/jeep_2.webp" id="2d" onclick="showData(this.id)" alt="2 door jeep">
-                <p id="name5"></p>
-                <p id="max4"></p>
-                <p id="half5"></p>
-                <p id="full5"></p>
-            </picture>
-            <section>
+                <img src="../scoots/images/honda_metro.webp" class="scoot-img" alt="metro scooter">
+                <img src="../scoots/images/honda_dio.webp" class="scoot-img" alt="dio scooter">
+                <img src="../scoots/images/honda_PCX150.webp" class="scoot-img" alt="pcx scooter">
+                <img src="../scoots/images/honda_runner.webp" class="scoot-img" alt="honda 1000">
+                <img src="../scoots/images/jeep_4.webp" class="scoot-img" alt="4 door jeep">
+                <img src="../scoots/images/jeep_2.webp" class="scoot-img" alt="2 door jeep">
               <table class="rental-info">
                   <caption><h2>Rental Types</h2></caption>
                   <tbody>
@@ -121,27 +74,26 @@
                       </tr> 
                   </tbody>      
               </table>
-              <table style="border-collapse: collapse; border: 1px solid #000000; margin-left: auto; margin-right: auto;" border="1" cellpadding="5">
-
-                <tbody class="prices"><tr>
-                  <td style="background-color: black; text-align: center;" colspan="6"><span style="color: #ffffff; font-size: 14pt;"><strong>Max Rental Pricing</strong></span>
+              <table class="prices1">
+                <tbody class="prices2"><tr>
+                  <td class="td-header" colspan="6"><strong>Max Rental Pricing</strong>
                   </td>
                 </tr>
                 <tr>
                   <td colspan="2"></td>
-                  <td style="text-align: center;" colspan="2"><strong>Reservation</strong></td>
-                  <td style="text-align: center;" colspan="2"><strong>Walk-In</strong></td>
+                  <td colspan="2"><strong>Reservation</strong></td>
+                  <td colspan="2"><strong>Walk-In</strong></td>
                 </tr>
                 <tr>
-                  <td style="text-align: center;"><strong>Rental Type</strong></td>
-                  <td style="text-align: center;"><strong>Max. Persons</strong></td>
-                  <td style="text-align: center;"><strong>Half Day<br>(3 hrs)</strong></td>
-                  <td style="text-align: center;"><strong>Full Day</strong></td>
-                  <td style="text-align: center;"><strong>Half Day<br>(3 hrs)</strong></td>
-                  <td style="text-align: center;"><strong>Full Day</strong></td>
+                  <td><strong>Rental Type</strong></td>
+                  <td><strong>Max. Persons</strong></td>
+                  <td><strong>Half Day<br>(3 hrs)</strong></td>
+                  <td><strong>Full Day</strong></td>
+                  <td><strong>Half Day<br>(3 hrs)</strong></td>
+                  <td><strong>Full Day</strong></td>
                 </tr>
                 <tr>
-                  <td style="text-align: center;">~Honda Metro Scooter</td>
+                  <td>~Honda Metro Scooter</td>
                   <td style="text-align: center;">1</td>
                   <td style="text-align: center;">$20</td>
                   <td style="text-align: center;">$30</td>
@@ -189,8 +141,7 @@
                   <td style="text-align: center;">$90</td>
                 </tr>
                 </tbody>
-              </table>
-        </section>    
+              </table>  
     </main>
     <footer> 
       <a href="https://www.openweathermap.org">Weather API Credit</a>

@@ -4,10 +4,11 @@ body {
     font-family: 'Afacad', sans-serif;
 }
 .logo_link img{
-    display: float;
+    display: flex;
     height: 225px;
     width: 225px;
-    justify-content: left;
+    justify-content: center;
+    padding-left: 635px;
 }
 header {
     text-align: center;
@@ -60,9 +61,11 @@ main {
 .tours h2{
     font-size: 1.75em;
 }
-ol{
+.details li{
     text-align: center;
-}.button-box{
+    list-style-type: none;
+}
+.button-box{
     padding-bottom: 50px;
     padding-top: 40px;
 }
@@ -164,11 +167,11 @@ dd {
     margin: 0;
 }
 
-picture img {
+.scoot-img{
     width: 175px;
     height: 125px;
+    align-items: center;
 }
-
 .type {
     font-weight: bold;
     text-align: center;
@@ -220,4 +223,24 @@ footer img {
     left: 0;
     top: 0;
     position: absolute;
+}
+.prices1{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.prices2{
+    text-align: center;
+    color: black;
+    font-size: 14pt;
+}
+.td-header{
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+td{
+    text-align: center;
 }
