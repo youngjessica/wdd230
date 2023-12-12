@@ -50,3 +50,52 @@ function showData(clicked_id) {
 }
 
 
+function displayRentals (rentals) {
+    
+    const cards = document.querySelector('div.cards'); // select the output container element
+  
+    rentals.forEach(rental => {
+      // Create elements to add to the div.cards element
+      let card = document.createElement('section');
+      let h2 = document.createElement('h2');
+      let img = document.createElement('img');
+
+      let dob = document.createElement('p');
+      let pob = document.createElement('p');
+  
+      // Build the h2 content out to show the prophet's full name - finish the template string
+      h2.textContent = `${rental.name}`;
+
+      dob.textContent = `Max. Persons: ${rental.max}`;
+      pob.textContent = `Reservation-Half Day Price: ${rental.reshalf}`;
+
+      // Build the image portrait by setting all the relevant attribute
+      img.setAttribute('src', rental.imageurl);
+      img.setAttribute('alt', `Portait of ${rental.name}`);
+      img.setAttribute('loading', 'lazy');
+      img.setAttribute('width', '200');
+      img.setAttribute('height', '200');
+  
+      // Append the section(card) with the created elements
+      card.appendChild(h2);
+      card.appendChild(dob);
+      card.appendChild(pob);
+      card.appendChild(img);
+  
+      cards.appendChild(card);
+    }) // end of forEach loop
+  } // end of function expression
+
+rentalsList = {};
+
+const url = '../scoots/data/rental.json';
+
+async function getRentalData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    //console.table(data.rentals); 
+    rentalList = data.rentals;
+    displayRentals(rentalList);
+  }
+
+getRentalData();

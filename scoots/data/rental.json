@@ -1,0 +1,82 @@
+{
+    "reserVation" : [
+        {
+            "rentalType" : "Honda Metro Scooter",
+            "maxPersons" : "1",
+            "halfDay" : "$20",
+            "fullDay" : "$30"
+        },
+        {
+            "rentalType" : "Honda Dio Scooter",
+            "maxPersons" : "2",
+            "halfDay" : "$30",
+            "fullDay" : "$40"
+        },
+        {
+            "rentalType" : "Honda PCX150 Scooter",
+            "maxPersons" : "2",
+            "halfDay" : "$40",
+            "fullDay" : "$50"
+        },
+        {
+            "rentalType" : "Honda Pioneer ATV",
+            "maxPersons" : "4",
+            "halfDay" : "$50",
+            "fullDay" : "$70"
+        },
+        {
+            "rentalType" : "Jeep Wrangler - 4 door with a/c",
+            "maxPersons" : "5",
+            "halfDay" : "$70",
+            "fullDay" : "$100"
+        },
+        {
+            "rentalType" : "Jeep Wrangler - 2 door",
+            "maxPersons" : "4",
+            "halfDay" : "$60",
+            "fullDay" : "$85"
+        }
+    ],
+
+    "walkIn" : [
+        {
+            "rentalType" : "Honda Metro Scooter",
+            "maxPersons" : "1",
+            "halfDay" : "$25",
+            "fullDay" : "$35"
+        },
+        {
+            "rentalType" : "Honda Dio Scooter",
+            "maxPersons" : "2",
+            "halfDay" : "$35",
+            "fullDay" : "$45"
+        },
+        {
+            "rentalType" : "Honda PCX150 Scooter",
+            "maxPersons" : "2",
+            "halfDay" : "$45",
+            "fullDay" : "$55"
+        },
+        {
+            "rentalType" : "Honda Pioneer ATV",
+            "maxPersons" : "4",
+            "halfDay" : "$60",
+            "fullDay" : "$80"
+        },
+        {
+            "rentalType" : "Jeep Wrangler - 4 door with a/c",
+            "maxPersons" : "5",
+            "halfDay" : "$85",
+            "fullDay" : "$125"
+        },
+        {
+            "rentalType" : "Jeep Wrangler - 2 door",
+            "maxPersons" : "4",
+            "halfDay" : "$70",
+            "fullDay" : "$90"
+        }
+    ]
+}
+
+
+    
