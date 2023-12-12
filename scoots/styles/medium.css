@@ -1,16 +1,43 @@
 /* medium css file for*/
 
-@media only screen and (min-width: 450px){
+@media only screen and (max-width: 450px){
     header, footer {
         margin: 0 auto;
     }
     main {
         margin: 0 auto;
         display: block;
-        width: 450px;
+        width: 400px;
         text-align: center;
     }
-   
+    .logo_link{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 40px);
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .hero-img{
+        width: 400px;
+    }
+    header h1{
+        font-family: 'Kalam', cursive;
+        font-size: 2em;
+        align-items: center;
+        margin: 0;
+        padding-top: 10px;
+    }
+    header h2{
+        font-family: 'Afacad', sans-serif;
+        font-size: 1em;
+        align-items: center;
+        padding: 0;
+        margin: 10px;
+    }
     /*navigation*/
     .navigation  li:first-child{
         display: none;
