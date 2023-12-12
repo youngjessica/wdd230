@@ -3,12 +3,17 @@
 body {
     font-family: 'Afacad', sans-serif;
 }
-.logo_link img{
-    display: flex;
-    height: 225px;
-    width: 225px;
+.logo_link{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 40px);
+}
+.logo{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 200px;
+    width: 200px;
     justify-content: center;
-    padding-left: 635px;
 }
 header {
     text-align: center;
@@ -17,15 +22,17 @@ header {
 }
 header h1{
     font-family: 'Kalam', cursive;
-    font-size: 2.5em;
-    padding-left: 60px;
+    font-size: 4em;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 header h2{
     font-family: 'Afacad', sans-serif;
-    font-size: 1.5em;
-    padding-left: 65px;
+    font-size: 2em;
     align-items: center;
+    padding: 0;
+    margin: 10px;
 }
 .hero-img {
     width: 1450px;
