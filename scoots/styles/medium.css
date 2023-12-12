@@ -39,6 +39,9 @@
         margin: 10px;
     }
     /*navigation*/
+    nav{
+        font-size: .75em;
+    }
     .navigation  li:first-child{
         display: none;
     }
