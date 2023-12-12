@@ -1,22 +1,78 @@
-/* small css for lesson 12 */
+/* small css for*/
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Afacad', sans-serif;
 }
-
+.logo_link img{
+    display: float;
+    height: 225px;
+    width: 225px;
+    padding-right: 50px;
+}
 header {
     text-align: center;
     border-bottom: 1px solid black;
     justify-content: center;
 }
-
-main {
-    background-color: lightblue;
+header h1{
+    font-family: 'Kalam', cursive;
+    font-size: 2.5em;
+    padding-left: 60px;
+    align-items: center;
 }
-
+header h2{
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.5em;
+    padding-left: 65px;
+    align-items: center;
+}
+.hero-img {
+    width: 1450px;
+    height: 500px;
+    margin: 10px;
+    border: 5px solid #f1a243;
+}
+main {
+    background-color: #f1a243;
+    opacity: 75%;
+    border-radius: 20px;
+    padding: 25px;
+}
+.homepage{
+    margin-bottom: 40px;
+}
+.rental-list{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-page{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tours{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-us{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tours h2{
+    font-size: 1.75em;
+}
+.button-box{
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.join{
+    font-family: 'Kalam', cursive;
+    font-size: 2em;
+    color: black;
+}
 header img {
     float: right;
-    height: 100px;
+    height: 75px;
+    padding-top: 50px;
 }
 
 div {
@@ -35,13 +91,17 @@ ul {
 nav {
     border-top: 1px solid black;
     padding-top: 10px;
-    background-color: darkgrey;
+    background-color: #02c2da;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
+    opacity: 75%;
 }
 
 .navigation li:first-child {
     text-align: center;
     display: block;
-    text-decoration: none; 
+    text-decoration: none;
+    
 }
 
 .navigation {
@@ -84,12 +144,18 @@ nav li {
     font-weight: bold;
 }
 /*end navigation*/
+h2{
+    font-family: 'Kalam', cursive;
+    color: black;
+}
+tbody{
+    font-family:'Afacad', sans-serif;
+}
 dt {
     font-weight: bold;
 }
-
 dl {
-    text-align: left;
+    text-align: center;
 }
 
 dd {
@@ -104,14 +170,16 @@ picture img {
 .type {
     font-weight: bold;
     text-align: center;
+    font-size: 1em;
 }
 
 .forecast th, td {
-    background-color: darkgray;
-    border: 1px solid black;
-    padding: 10px;   
+    background-color: #02c2da;
+    border: 2px solid black;
+    padding: 10px;  
+    opacity: 90%;
+    border-radius: 5px;
 }
-
 .type li {
     list-style: none;
 }
@@ -119,9 +187,10 @@ picture img {
 footer {
     text-align: center;
     border-top: 1px solid black;
+    margin: 25px;
 }
-
 footer img {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
 }

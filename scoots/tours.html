@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta name="description" content="Scoots Home Page for Jess Young - WDD230: BYU-Idaho">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;family=Peddana&amp;family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/wdd230/lesson12/images/favicon.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <title>Jess Young's "Scoots" Website - Tours - WDD 230</title>
-    <style type="text/css">
-        @font-face {
-            font-weight: 400;
-            font-style:  normal;
-            font-family: circular;
-        
-            src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
-        }
-        
-        @font-face {
-            font-weight: 700;
-            font-style:  normal;
-            font-family: circular;
-        
-            src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <meta name="description" content="Scoots Home Page for Jess Young - WDD230: BYU-Idaho">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Kalam&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../scoots/images/favicon.ico">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <title>Jess Young's "Scoots" Website - Rentals - WDD 230</title>
+        <style type="text/css">
+            @font-face {
+                font-weight: 400;
+                font-style:  normal;
+                font-family: circular;
+            
+                src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+            }
+            
+            @font-face {
+                font-weight: 700;
+                font-style:  normal;
+                font-family: circular;
+            
+                src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+            }
+        </style>
+    </head>
 <body>
-    <header>
-        <a href="/wdd230/lesson12/home.html"><img src="images/scooter.jpg" alt="scooter imgage"></a>
-        <h1>Scooters</h1>
-        <h2>We're the "how" you are going to get there</h2>
-        
+    <div id="content">
+        <section>
+            <div class="wrapper">
+                <div class="logo_link">
+                    <img class="logo" src="../scoots/images/scooter_logo.svg" alt="Scoots logo">
+                </div>
+            </div>
+        </section>
+      </div>
+      <header>
+        <a href="../scoots/index.html"><img src="images/scooter_image.svg" alt="scooter image"></a> 
         <nav>
             <ul class="navigation">
                 <li><a onclick="menutoggle()">☰ Menu</a></li>
-                <li><a class="active" href="home.html">Home</a></li>
+                <li><a class="active" href="../scoots/index.html">Home</a></li>
                 <li><a href="../scoots/rentals.html">Rentals</a></li>
                 <li><a href="../scoots/reservations.html">Reservations</a></li>
                 <li><a href="../scoots/tours.html">Tours</a></li>  
@@ -46,24 +54,26 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="tours">
         <section>
             <h2>Some of our most popular things to do</h2>
             <dl>
-                <dt>Mr. Sanchos Beach Club</dt>
-                <dd>All Inclusive Pass to Beach Club</dd>
-                <dt>Catamaran Sailing Tour</dt>
-                <dd>Sailing to Passion Island</dd>
-                <dt>Cozumel Beach Horseback Riding</dt>
-                <dd>An island tour on horseback</dd>
+                <dt><a href="https://www.mrsanchos.com/">Mr. Sanchos Beach Club</a></dt>
+                <dd><a href="https://thisiscozumel.com/tours/packagedetails/all-inclusive-beach-resort">All Inclusive Pass to Beach Club</a></dd>
+                <dt><a href="https://thisiscozumel.com/tours/packagedetails/cozumel-whale-shark-tours">Whale Shark Tour</a></dt>
+                <dd><a href="https://thisiscozumel.com/tours/packagedetails/passion-island-by-catamaran">Sailing to Passion Island</a></dd>
+                <dt><a href="https://thisiscozumel.com/tours/packagedetails/pirate-dinner-cruise">Pirate Dinner Cruise</a></dt>
+                <dd><a href="https://thisiscozumel.com/tours/packagedetails/private-cozumel-snorkel-boat-tour">Private Snorkelboat Tour</a></dd>
             </dl>
         </section>    
     </main>
     <footer> 
         <a href="https://www.openweathermap.org">Weather API Credit</a>
-        <a href="www.facebook.com"><img src="images/facebook.jpg" alt="facebook logo"></a>
-        <a href="www.twitter.com"><img src="images/twitter.jpg" alt="twitter logo"></a>
-        <p id="date">This was last modified on: 12/27/2020 12:45:09</p>
+        <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook logo"></a>
+        <a href="https://www.twitter.com"><img src="images/twitter.svg" alt="twitter logo"></a>
+        <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="instagram logo"></a>
+        <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+        <p id="date">This was last modified on: 12/13/2023 12:45:09</p>
     </footer>
     <script src="scripts/footer.js"></script>
     <script src="scripts/menu.js"></script>

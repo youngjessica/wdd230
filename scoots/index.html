@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta name="description" content="Scoots Home Page for Jess Young - WDD230: BYU-Idaho">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;family=Peddana&amp;family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/wdd230/lesson12/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Kalam&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../scoots/images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -30,15 +32,23 @@
     </style>
 </head>
 <body>
+    <div id="content">
+        <section>
+            <div class="wrapper">
+                <div class="logo_link">
+                    <img class="logo" src="../scoots/images/scooter_logo.svg" alt="Scoots logo">
+                </div>
+            </div>
+        </section>
+    </div>
     <header>
-        <a href="/wdd230/lesson12/home.html"><img src="images/scooter.jpg" alt="scooter imgage"></a>
-        <h1>Scooters</h1>
-        <h2>We're the "how" you are going to get there</h2>
-        
+        <a href="../scoots/index.html"><img src="images/scooter_image.svg" alt="scooter image"></a>
+        <h1>Welcome to Scoots!</h1>
+        <h2>Explore our city in style</h2> 
         <nav>
             <ul class="navigation">
                 <li><a onclick="menutoggle()">☰ Menu</a></li>
-                <li><a class="active" href="home.html">Home</a></li>
+                <li><a class="active" href="../scoots/index.html">Home</a></li>
                 <li><a href="../scoots/rentals.html">Rentals</a></li>
                 <li><a href="../scoots/reservations.html">Reservations</a></li>
                 <li><a href="../scoots/tours.html">Tours</a></li>  
@@ -46,15 +56,22 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-
-            <div>
-                <h2>Click Here to Make a Reservation!!!</h2>
-                <a href="/wdd230/lesson12/reservations.html"><img src="images/flashy.gif" alt="flashy motorcycle"></a>
+    <div id="hero">
+        <div id="hero-box">
+                <picture>
+                    <img class="hero-img" src="../scoots/images/cozumel copy.webp" alt="Image of the city of Cozumel."/>
+                </picture>
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title"></h1>
+            <div class="button-box">
+                <a class="join" href="../scoots/reservations.html">Make A Reservation Today!</a>
             </div>
-            
-            <table>
+        </section>
+    </div>
+    <main class="homepage">
+        <section>
+            <table class="rental-info">
                 <caption><h2>Rental Types</h2></caption>
                 <tbody>
                     <tr class="type">
@@ -119,9 +136,11 @@
     </main>
     <footer> 
         <a href="https://www.openweathermap.org">Weather API Credit</a>
-        <a href="www.facebook.com"><img src="images/facebook.jpg" alt="facebook logo"></a>
-        <a href="www.twitter.com"><img src="images/twitter.jpg" alt="twitter logo"></a>
-        <p id="date">This was last modified on: 12/27/2020 12:45:09</p>
+        <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="facebook logo"></a>
+        <a href="https://www.twitter.com"><img src="images/twitter.svg" alt="twitter logo"></a>
+        <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="instagram logo"></a>
+        <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+        <p id="date">This was last modified on: 12/13/2023 12:45:09</p>
     </footer>
     <script src="scripts/footer.js"></script>
     <script src="scripts/menu.js"></script>
