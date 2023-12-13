@@ -1,0 +1,69 @@
+nav {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    background-color: #02c2da;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
+    opacity: 75%;
+}
+.navigation li:first-child {
+    text-align: center;
+    display: block;
+    text-decoration: none; 
+}
+.navigation {
+    margin: 0;
+}
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: none;
+}
+
+nav li a:hover, .active{
+    text-decoration: underline;
+    font-size: 125%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.response li {
+    display: block;
+    text-align: center; 
+    padding: 5px;   
+}
+
+.response nav li {
+    display: block;
+}
+
+nav li {
+    font-weight: bold;
+}
+.response, .navigation li {
+    display: flex;
+    text-align: center; 
+}
+
+.navigation {
+    display: flex;
+}
+
+a:hover{
+    text-decoration: underline;
+}       
+
+nav li a {
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+}

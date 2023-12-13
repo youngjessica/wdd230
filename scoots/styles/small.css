@@ -1,5 +1,5 @@
 /* small css for*/
-
+@media only screen and (min-width: 992px) {
     body {
         font-family: 'Afacad', sans-serif;
     }
@@ -46,6 +46,7 @@
         border-radius: 20px;
         padding: 25px;
         justify-content: center;
+        margin-left: 350px;
     }
     .homepage{
         margin-bottom: 40px;
@@ -68,12 +69,14 @@
     }
     .tours h2{
         font-size: 1.75em;
+        text-align: center;
     }
     .details li{
         text-align: center;
         list-style-type: none;
     }
     .attribution-list{
+        text-align: center;
         list-style-type: none;
     }
     .attribution{
@@ -110,58 +113,45 @@
     /*navigation*/
     nav {
         border-top: 1px solid black;
-        padding-top: 10px;
         background-color: #02c2da;
         font-family: 'Kalam', cursive;
         font-size: 1.5em;
         opacity: 75%;
-    }
+        margin: 0px;
+        padding: 0px;
 
-    .navigation li:first-child {
-        text-align: center;
-        display: block;
-        text-decoration: none;
-        
     }
-
-    .navigation {
-        margin: 0;
-    }
-
-    .active {
-        font-weight: bold;
-        text-decoration: underline;
-    }
-
-    nav ul {
-        padding: 0;
-    }
-
-    nav li {
+    .navigation  li:first-child{
         display: none;
     }
 
+    nav ul li {
+        margin: 0 auto;
+    }
+
+    .response, .navigation li {
+        display: flex;
+        text-align: center; 
+    }
+
+    .navigation {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
     nav li a:hover, .active{
         text-decoration: underline;
         font-size: 125%;
     }
+    a:hover{
+        text-decoration: underline;
+    }       
 
-    a {
-        text-decoration: none;
-    }
-
-    .response li {
-        display: block;
-        text-align: center; 
-        padding: 5px;   
-    }
-
-    .response nav li {
-        display: block;
-    }
-
-    nav li {
+    nav li a {
+        color:black;
         font-weight: bold;
+        padding: 25px;
+        margin: 0;
     }
     /*end navigation*/
     h2{
@@ -185,7 +175,13 @@
     .scoot-img{
         width: 175px;
         height: 125px;
-        align-items: center;
+        background-color: #02c2da;
+        opacity: 90%;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin-top: 10px;
+        display: inline;
+        justify-content: center;
     }
     .type {
         font-weight: bold;
@@ -195,10 +191,10 @@
 
     .forecast th, td {
         background-color: #02c2da;
-        border: 2px solid black;
-        padding: 10px;  
+        border: 2px solid black; 
         opacity: 90%;
         border-radius: 5px;
+        font-weight: bold;
     }
     .type li {
         list-style: none;
@@ -245,6 +241,8 @@
         margin-left: auto;
         margin-right: auto;
         padding: 5px;
+        width: 600px;
+        height: 500px;
     }
     .prices2{
         text-align: center;
@@ -259,3 +257,22 @@
     td{
         text-align: center;
     }
+    .contact{
+        text-align: center;
+    }
+    .tours ul{
+        text-align: center;
+        list-style-type: none;
+    }
+    .rental-info{
+        width: 500px;
+        height: 400px;
+        font-size: 1.25em;
+        margin-bottom: 10px;
+    }
+    #week-banner{
+        font-family: 'Afacad', sans-serif;
+        font-size: 1.5em;
+        margin: 20px;
+    }
+}
